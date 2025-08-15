@@ -1,0 +1,27 @@
+{
+  "name": "fitness-helper-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для фитнеса и подсчёта калорий",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot", 
+    "fitness",
+    "calories",
+    "workout"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
